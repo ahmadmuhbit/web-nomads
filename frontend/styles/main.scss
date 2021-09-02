@@ -4,6 +4,7 @@ body {
     color: #071C4D;
 }
 
+// Navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -15,7 +16,7 @@ body {
         .nav-link {
             color: #071C4D;
 
-            &.active {
+            &:active {
                 font-weight: bold;
                 color: #071C4D !important;
             }
@@ -39,5 +40,37 @@ body {
     &:hover {
         background-color: #1E3771;
         color: #fff;
+    }
+}
+
+// Header
+header {
+    padding: 180px 0 165px;
+    margin-top: -70px;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+
+    h1, p {
+        color: #fff;
+        }
+
+    h1 {    
+        font-family: 'Playfair Display', serif;
+        font-weight: bold;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    .btn-get-started {
+        background-color: #FF9E53;
+        color: #fff;
+
+        &:hover {
+            background-color: #FFAA69;
+            color: #fff;
+        }
     }
 }
